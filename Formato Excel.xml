@@ -1,0 +1,322 @@
+﻿<process name="Formato Excel" version="1.0" bpversion="5.0.11.0" narrative="Abre una nueva instancia de excel" preferredid="7adecc6c-91fa-4c34-b233-e765ce20d22c">
+  <view>
+    <camerax>43</camerax>
+    <cameray>30</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="827f4ad9-943b-479e-bf79-d8f7e990d003" name="Start" type="Start">
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>-165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>54996e50-d269-44d2-beb7-a78a43e4c9d5</onsuccess>
+  </stage>
+  <stage stageid="c48a7baa-be4a-4150-947d-b96f4ea39ff1" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="54996e50-d269-44d2-beb7-a78a43e4c9d5" name="Inicializa la instancia" type="Action">
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="flag" name="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="True" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>f75b3779-2a08-40f4-a411-b6786e7c4d2d</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="7ba46396-d89b-4e13-90e4-01c8daf2b60c" name="handle" type="Data">
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f75b3779-2a08-40f4-a411-b6786e7c4d2d" name="Crea el archivo" type="Action">
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\cristopher.paz\Desktop\Proyectos\[5] Robotics\Santander\Input\CVA-DVA 2016-05-31.xlsx&quot;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>47b82c72-a508-4fc8-ab98-4db7305abfbe</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="06b92d9b-4121-4a47-9371-1c056cfc33e9" name="Workbook Name" type="Data">
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c755af2e-a69b-4ed2-8354-8ac0fca2db9b" name="Abre archivo" type="Block">
+    <narrative>
+    </narrative>
+    <displayx>-45</displayx>
+    <displayy>-150</displayy>
+    <displaywidth>195</displaywidth>
+    <displayheight>180</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="47b82c72-a508-4fc8-ab98-4db7305abfbe" name="Muestra el archivo" type="Action">
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance which should have its window displayed. The default of zero indicates the currently active instance." expr="[handle]" />
+    </inputs>
+    <onsuccess>f4c5bf64-d9df-4f7c-a0e4-29e4bee08a47</onsuccess>
+    <resource object="MS Excel VBO" action="Show" />
+  </stage>
+  <stage stageid="f4c5bf64-d9df-4f7c-a0e4-29e4bee08a47" name="Selecciona Rango" type="Action">
+    <narrative>Selecciona rango hasta final del libro para insertar la columna</narrative>
+    <displayx>30</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="Handle" expr="[handle]" />
+      <input type="text" name="Workbook" expr="[Workbook Name]" />
+      <input type="text" name="Worksheet" expr="&quot;CVA-DVA&quot;" />
+      <input type="text" name="Cell Reference" expr="&quot;D1:D100000&quot;" />
+    </inputs>
+    <onsuccess>5ddc2ef4-9b3c-481c-adf4-d2f47aa0b091</onsuccess>
+    <resource object="MS Excel VBO" action="Select" />
+  </stage>
+  <stage stageid="5ddc2ef4-9b3c-481c-adf4-d2f47aa0b091" name="Insertar Columna" type="Action">
+    <narrative>Inserta celdas de acuerdo al rango anterior al lado Izquiero de la selección en paso anterior</narrative>
+    <displayx>30</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="Handle" expr="[handle]" />
+      <input type="text" name="Workbook" expr="[Workbook Name]" />
+      <input type="text" name="Shift (Left or Up)" expr="&quot;Left&quot;" />
+    </inputs>
+    <onsuccess>b87a7cc6-2785-47a7-ae9d-e88adc67f9a3</onsuccess>
+    <resource object="MS Excel VBO" action="Insert" />
+  </stage>
+  <stage stageid="b87a7cc6-2785-47a7-ae9d-e88adc67f9a3" name="Asigna Nombre" type="Action">
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>195</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance on which the required cell value should be set. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Cell Reference" narrative="The reference on the speficied sheet identifying the cell which should be set." expr="&quot;D1&quot;" />
+      <input type="text" name="Value" narrative="The value to which the specified cell should be set." expr="&quot;MM&quot;" />
+    </inputs>
+    <onsuccess>b83d5e55-96fe-4007-94f2-1c3fe89e76a2</onsuccess>
+    <resource object="MS Excel VBO" action="Set Cell Value" />
+  </stage>
+  <stage stageid="3db021a4-f8f4-4054-a7b8-36ae11e94a7f" name="Selecciona Rango" type="Action">
+    <narrative>Selecciona rango hasta final del libro para insertar la columna</narrative>
+    <displayx>150</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="Handle" expr="[handle]" />
+      <input type="text" name="Workbook" expr="[Workbook Name]" />
+      <input type="text" name="Worksheet" expr="&quot;CVA-DVA&quot;" />
+      <input type="text" name="Cell Reference" expr="&quot;G1:G100000&quot;" />
+    </inputs>
+    <onsuccess>3160f429-c539-4226-8d39-e670d80756fa</onsuccess>
+    <resource object="MS Excel VBO" action="Select" />
+  </stage>
+  <stage stageid="3160f429-c539-4226-8d39-e670d80756fa" name="Insertar Columna" type="Action">
+    <narrative>Inserta celdas de acuerdo al rango anterior al lado Izquiero de la selección en paso anterior</narrative>
+    <displayx>150</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="Handle" expr="[handle]" />
+      <input type="text" name="Workbook" expr="[Workbook Name]" />
+      <input type="text" name="Shift (Left or Up)" expr="&quot;Left&quot;" />
+    </inputs>
+    <onsuccess>71f67593-0993-4776-82ba-a9eab051e438</onsuccess>
+    <resource object="MS Excel VBO" action="Insert" />
+  </stage>
+  <stage stageid="71f67593-0993-4776-82ba-a9eab051e438" name="Asigna Nombre" type="Action">
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>195</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance on which the required cell value should be set. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Cell Reference" narrative="The reference on the speficied sheet identifying the cell which should be set." expr="&quot;G1&quot;" />
+      <input type="text" name="Value" narrative="The value to which the specified cell should be set." expr="&quot;PRODUCTO&quot;" />
+    </inputs>
+    <onsuccess>81ed4057-6445-43d6-a029-0b38aa130e8e</onsuccess>
+    <resource object="MS Excel VBO" action="Set Cell Value" />
+  </stage>
+  <stage stageid="5ff70357-5353-432e-89fe-b06884485881" name="Selecciona Rango" type="Action">
+    <narrative>Selecciona rango hasta final del libro para insertar la columna</narrative>
+    <displayx>270</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="Handle" expr="[handle]" />
+      <input type="text" name="Workbook" expr="[Workbook Name]" />
+      <input type="text" name="Worksheet" expr="&quot;CVA-DVA&quot;" />
+      <input type="text" name="Cell Reference" expr="&quot;S1:S100000&quot;" />
+    </inputs>
+    <onsuccess>b6f2d774-a9b4-46db-ba8a-21d559dca766</onsuccess>
+    <resource object="MS Excel VBO" action="Select" />
+  </stage>
+  <stage stageid="b6f2d774-a9b4-46db-ba8a-21d559dca766" name="Insertar Columna" type="Action">
+    <narrative>Inserta celdas de acuerdo al rango anterior al lado Izquiero de la selección en paso anterior</narrative>
+    <displayx>270</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="Handle" expr="[handle]" />
+      <input type="text" name="Workbook" expr="[Workbook Name]" />
+      <input type="text" name="Shift (Left or Up)" expr="&quot;Left&quot;" />
+    </inputs>
+    <onsuccess>4a261726-2b06-4cc4-acea-2d188afa9b95</onsuccess>
+    <resource object="MS Excel VBO" action="Insert" />
+  </stage>
+  <stage stageid="4a261726-2b06-4cc4-acea-2d188afa9b95" name="Asigna Nombre" type="Action">
+    <narrative>
+    </narrative>
+    <displayx>270</displayx>
+    <displayy>195</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance on which the required cell value should be set. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Cell Reference" narrative="The reference on the speficied sheet identifying the cell which should be set." expr="&quot;S1&quot;" />
+      <input type="text" name="Value" narrative="The value to which the specified cell should be set." expr="&quot;Neto CVA - DVA&quot;" />
+    </inputs>
+    <onsuccess>0286a066-6e13-42e5-81af-7fcf8d5c4e7c</onsuccess>
+    <resource object="MS Excel VBO" action="Set Cell Value" />
+  </stage>
+  <stage stageid="b83d5e55-96fe-4007-94f2-1c3fe89e76a2" name="Formato" type="Action">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>255</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance on which the cell to be formatted is contained. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Cell Reference" narrative="The reference to the cell whose format should be changed." expr="&quot;D1&quot;" />
+      <input type="text" name="Cell Format" narrative="The format required for the cell - this can be the name of the default format (eg. &quot;General&quot;) or a sequence of formatting codes (eg. &quot;£#,##0.00_);[Red](£#,##0.00)&quot;)" expr="" />
+    </inputs>
+    <onsuccess>3db021a4-f8f4-4054-a7b8-36ae11e94a7f</onsuccess>
+    <resource object="MS Excel VBO" action="Formato Celda " />
+  </stage>
+  <stage stageid="81ed4057-6445-43d6-a029-0b38aa130e8e" name="Formato" type="Action">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>255</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance on which the cell to be formatted is contained. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Cell Reference" narrative="The reference to the cell whose format should be changed." expr="&quot;G1&quot;" />
+      <input type="text" name="Cell Format" narrative="The format required for the cell - this can be the name of the default format (eg. &quot;General&quot;) or a sequence of formatting codes (eg. &quot;£#,##0.00_);[Red](£#,##0.00)&quot;)" expr="" />
+    </inputs>
+    <onsuccess>5ff70357-5353-432e-89fe-b06884485881</onsuccess>
+    <resource object="MS Excel VBO" action="Formato Celda " />
+  </stage>
+  <stage stageid="0286a066-6e13-42e5-81af-7fcf8d5c4e7c" name="Formato" type="Action">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>270</displayx>
+    <displayy>255</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The integer handle identifying the instance on which the cell to be formatted is contained. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Cell Reference" narrative="The reference to the cell whose format should be changed." expr="&quot;S1&quot;" />
+      <input type="text" name="Cell Format" narrative="The format required for the cell - this can be the name of the default format (eg. &quot;General&quot;) or a sequence of formatting codes (eg. &quot;£#,##0.00_);[Red](£#,##0.00)&quot;)" expr="" />
+    </inputs>
+    <onsuccess>30792788-2b8e-4dd5-a0fd-6417e73fba98</onsuccess>
+    <resource object="MS Excel VBO" action="Formato Celda " />
+  </stage>
+  <stage stageid="30792788-2b8e-4dd5-a0fd-6417e73fba98" name="End1" type="End">
+    <narrative>
+    </narrative>
+    <displayx>270</displayx>
+    <displayy>315</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="fddfabfd-159b-4423-a0b4-eb0917662490" name="Crea celdas y da formato" type="Block">
+    <narrative>
+    </narrative>
+    <displayx>-90</displayx>
+    <displayy>45</displayy>
+    <displaywidth>405</displaywidth>
+    <displayheight>240</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+</process>
