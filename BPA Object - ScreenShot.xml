@@ -1,0 +1,3485 @@
+﻿<process name="ScreenShot" version="1.0" bpversion="5.0.11.0" narrative="" type="object" runmode="Exclusive" preferredid="b894eef0-f1f6-4981-ab7d-aba758370f9c">
+  <appdef>
+    <element name="ScreenShot">
+      <id>f03dc63d-1c16-45d7-b315-a1f8c489a844</id>
+      <element name="Active Window">
+        <id>7453c7e7-8389-4718-a38a-5eccc2becf83</id>
+        <type>AAButton</type>
+        <basetype>AAButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="FastStone Capture" />
+          </attribute>
+          <attribute name="ClassName">
+            <ProcessValue datatype="text" value="FastStoneScreenCapturePanel" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="1338" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="21" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="53" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:1342,47,69,1365" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="22" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Capture Active Window" />
+          </attribute>
+          <attribute name="Description">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="PushButton" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="Value2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="DefaultAction">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="255" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="26" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="TBXToolbar2" />
+          </attribute>
+          <attribute name="pDescription">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="ToolBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="pValue2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Window">
+        <id>2aeaec5b-ab8f-4d3d-9af8-d7e47391c514</id>
+        <type>AAButton</type>
+        <basetype>AAButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="FastStone Capture" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="FastStoneScreenCapturePanel" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="1338" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="21" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="53" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:1365,47,69,1388" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="25" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="22" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Capture Window / Object" />
+          </attribute>
+          <attribute name="Description" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="PushButton" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="Value2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="DefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="255" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="26" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="TBXToolbar2" />
+          </attribute>
+          <attribute name="pDescription" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="ToolBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="pValue2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Rectangular Region">
+        <id>099bb6dd-7e54-4f9c-86e5-de02bef869b1</id>
+        <type>AAButton</type>
+        <basetype>AAButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="FastStone Capture" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="FastStoneScreenCapturePanel" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="1338" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="21" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="53" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:1388,47,69,1411" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="48" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="22" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Capture Rectangular Region" />
+          </attribute>
+          <attribute name="Description" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="PushButton" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="Value2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="DefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="255" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="26" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="TBXToolbar2" />
+          </attribute>
+          <attribute name="pDescription" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="ToolBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="pValue2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="FreeHand Region">
+        <id>2df11db1-eb8c-44e3-96fa-26682904a1d5</id>
+        <type>AAButton</type>
+        <basetype>AAButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="FastStone Capture" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="FastStoneScreenCapturePanel" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="1338" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="21" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="53" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:1411,47,69,1434" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="71" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="22" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Capture Freehand Region" />
+          </attribute>
+          <attribute name="Description" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="PushButton" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="Value2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="DefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="255" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="26" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="TBXToolbar2" />
+          </attribute>
+          <attribute name="pDescription" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="ToolBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="pValue2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Full Screen">
+        <id>58c12a13-c77d-43b2-8d35-f665504b1b16</id>
+        <type>AAButton</type>
+        <basetype>AAButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="FastStone Capture" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="FastStoneScreenCapturePanel" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="1338" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="21" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="53" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:1434,47,69,1457" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="94" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="22" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Capture Full Screen" />
+          </attribute>
+          <attribute name="Description" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="PushButton" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="Value2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="DefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="255" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="26" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="TBXToolbar2" />
+          </attribute>
+          <attribute name="pDescription" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="ToolBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="pValue2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Scrolling Window">
+        <id>c1a4fa5f-439e-4c58-89a7-b96ae49fd4b1</id>
+        <type>AAButton</type>
+        <basetype>AAButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="FastStone Capture" />
+          </attribute>
+          <attribute name="ClassName">
+            <ProcessValue datatype="text" value="FastStoneScreenCapturePanel" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="1338" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="21" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="53" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:1457,47,69,1480" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="117" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="22" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Capture Scrolling Window" />
+          </attribute>
+          <attribute name="Description">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="PushButton" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="Value2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="DefaultAction">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="255" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="26" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="TBXToolbar2" />
+          </attribute>
+          <attribute name="pDescription">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="ToolBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="pValue2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Fixed Region">
+        <id>dfcb1a5f-e4a1-439d-9ee6-e9a6ad050583</id>
+        <type>AAButton</type>
+        <basetype>AAButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="FastStone Capture" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="FastStoneScreenCapturePanel" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="1338" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="21" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="53" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:1480,47,69,1503" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="140" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="22" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Capture Fixed Region" />
+          </attribute>
+          <attribute name="Description" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="PushButton" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="Value2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="DefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="255" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="26" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="TBXToolbar2" />
+          </attribute>
+          <attribute name="pDescription" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="ToolBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="pValue2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Video">
+        <id>0b0dbb6b-f894-44bb-ab74-37ddae434482</id>
+        <type>AAButton</type>
+        <basetype>AAButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="FastStone Capture" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="FastStoneScreenCapturePanel" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="1338" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="21" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="53" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:1503,47,69,1526" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="163" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="22" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Screen Recorder" />
+          </attribute>
+          <attribute name="Description" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="PushButton" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="Value2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="DefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="255" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="26" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="TBXToolbar2" />
+          </attribute>
+          <attribute name="pDescription" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="ToolBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="pValue2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="btnWord">
+        <id>23b8fbed-72d8-4271-8eaa-c15f2447df50</id>
+        <type>AAElement</type>
+        <basetype>AAElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="TTBXToolbar" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="1601" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="50" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="   FastStone Editor &lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="5" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:8,44,89,1598" />
+          </attribute>
+          <attribute name="pWindowText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pClassName">
+            <ProcessValue datatype="text" value="TTBDock" />
+          </attribute>
+          <attribute name="pCtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="pX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="pY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="pWidth">
+            <ProcessValue datatype="number" value="1601" />
+          </attribute>
+          <attribute name="pHeight">
+            <ProcessValue datatype="number" value="73" />
+          </attribute>
+          <attribute name="pVisible">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pScreenVisible">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pEnabled">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pActive">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOrdinal">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="pChildCount">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="898" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="61" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="45" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Word" />
+          </attribute>
+          <attribute name="Description" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="ButtonMenu" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="has popup" />
+          </attribute>
+          <attribute name="Value2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="DefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="Open" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="12" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:898,44,89,959" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="1600" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="49" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDescription" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="ToolBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="normal" />
+          </attribute>
+          <attribute name="pValue2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="23" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>Win32Launch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Users\cristopher.paz\Desktop\Importante\Programs\FastStone.Capture.v7.4-P0RTABL3\FSCapture.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>WorkingDirectory</name>
+          <value>C:\Users\cristopher.paz\Desktop</value>
+        </parameter>
+        <parameter>
+          <name>NonInvasive</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="93321378-8831-4b08-bf8f-51130dea3574" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="3e29cb55-5949-4919-94db-b439bbfa0c66" type="Normal" published="True">
+    <name>Iniciar</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="08511d36-cf0c-4c83-8e37-87a06472b374" type="Normal" published="True">
+    <name>Cerrar</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="122cff21-fd59-4e6e-b604-0b6d4b5439f7" type="Normal" published="True">
+    <name>Capturar ActiveWindow</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-72</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="48056afb-f839-4dcc-bdb0-e67bd6bad1b0" type="Normal" published="True">
+    <name>Guardar Word</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="70bba6cd-1a60-4993-b4ae-affbc0d6da33" name="Start" type="Start">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>09f30c29-07ed-4f9b-8e70-b7ad95cbfafc</onsuccess>
+  </stage>
+  <stage stageid="09f30c29-07ed-4f9b-8e70-b7ad95cbfafc" name="End" type="End">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ce063cca-6bbd-4600-b606-b60c82278871" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <references>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+      <reference>User32.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>User32.lib</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="8f43c636-2b2e-41a9-8253-32eefe9b9240" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>93321378-8831-4b08-bf8f-51130dea3574</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="e1ec8194-b620-478c-81ea-ba404062473e" name="Start" type="Start">
+    <subsheetid>93321378-8831-4b08-bf8f-51130dea3574</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>6c041622-781d-45ac-8dc6-d762a857b610</onsuccess>
+  </stage>
+  <stage stageid="6c041622-781d-45ac-8dc6-d762a857b610" name="End" type="End">
+    <subsheetid>93321378-8831-4b08-bf8f-51130dea3574</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="e18e75e4-74bd-4dfe-8bc8-618ea6b59c5f" name="Iniciar" type="SubSheetInfo">
+    <subsheetid>3e29cb55-5949-4919-94db-b439bbfa0c66</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="c6704755-33f9-4457-b9bd-f740cbba574d" name="Start" type="Start">
+    <subsheetid>3e29cb55-5949-4919-94db-b439bbfa0c66</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>f15055ec-edaa-4a64-9edc-985ef94dbbd2</onsuccess>
+  </stage>
+  <stage stageid="fd275505-8048-4d54-a9a0-65ef41fbbe04" name="End" type="End">
+    <subsheetid>3e29cb55-5949-4919-94db-b439bbfa0c66</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="cb0d5d41-45fb-4cf6-aa60-19056eafecd9" name="Note1" type="Note">
+    <subsheetid>93321378-8831-4b08-bf8f-51130dea3574</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="f5e2fadf-b88e-40a8-b72b-c276dd9b18b3" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <displayx>-195</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="f15055ec-edaa-4a64-9edc-985ef94dbbd2" name="Navigate1" type="Navigate">
+    <subsheetid>3e29cb55-5949-4919-94db-b439bbfa0c66</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>fd275505-8048-4d54-a9a0-65ef41fbbe04</onsuccess>
+    <step>
+      <element id="f03dc63d-1c16-45d7-b315-a1f8c489a844" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>WorkingDirectory</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>NonInvasive</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="f39ea33d-5c52-4563-a25a-d466d9e205ef" name="Iniciar" type="SubSheetInfo">
+    <subsheetid>08511d36-cf0c-4c83-8e37-87a06472b374</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="8fc7c55e-d6c7-4375-a594-e50ed6035fe1" name="Start" type="Start">
+    <subsheetid>08511d36-cf0c-4c83-8e37-87a06472b374</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>96d1a670-970f-409d-be86-6a914019f14c</onsuccess>
+  </stage>
+  <stage stageid="bbc69ee9-10ae-4954-b470-3c537d67fafd" name="End" type="End">
+    <subsheetid>08511d36-cf0c-4c83-8e37-87a06472b374</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="96d1a670-970f-409d-be86-6a914019f14c" name="Navigate1" type="Navigate">
+    <subsheetid>08511d36-cf0c-4c83-8e37-87a06472b374</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>bbc69ee9-10ae-4954-b470-3c537d67fafd</onsuccess>
+    <step>
+      <element id="f03dc63d-1c16-45d7-b315-a1f8c489a844" />
+      <action>
+        <id>Terminate</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>WorkingDirectory</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>NonInvasive</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="43e4f6bb-f516-49e8-b305-901ca124d387" name="Capturar ActiveWindow" type="SubSheetInfo">
+    <subsheetid>122cff21-fd59-4e6e-b604-0b6d4b5439f7</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="b0b5f369-15f4-40f0-ba04-3d450567f900" name="Start" type="Start">
+    <subsheetid>122cff21-fd59-4e6e-b604-0b6d4b5439f7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>-255</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>c790dc35-22ed-44f2-8176-9a75859abae7</onsuccess>
+  </stage>
+  <stage stageid="ad44c2ae-d440-4e5a-8edb-9abaa2b18913" name="End" type="End">
+    <subsheetid>122cff21-fd59-4e6e-b604-0b6d4b5439f7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="7ed0df32-3c7d-4c52-80fc-58ee6d7d1d07" name="Iniciar" type="SubSheet">
+    <subsheetid>122cff21-fd59-4e6e-b604-0b6d4b5439f7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>17596788-ce16-4ceb-8703-539c000076b2</onsuccess>
+    <processid>3e29cb55-5949-4919-94db-b439bbfa0c66</processid>
+  </stage>
+  <stage stageid="17596788-ce16-4ceb-8703-539c000076b2" name="Navigate2" type="Navigate">
+    <subsheetid>122cff21-fd59-4e6e-b604-0b6d4b5439f7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>ad44c2ae-d440-4e5a-8edb-9abaa2b18913</onsuccess>
+    <step>
+      <element id="7453c7e7-8389-4718-a38a-5eccc2becf83" />
+      <action>
+        <id>AAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>targx</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>targy</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="c0e57ebb-aa44-4dec-aab3-8936f35f721f" name="Guardar Word" type="SubSheetInfo">
+    <subsheetid>48056afb-f839-4dcc-bdb0-e67bd6bad1b0</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="91a3405c-3903-4122-bb01-064d3075c420" name="Start" type="Start">
+    <subsheetid>48056afb-f839-4dcc-bdb0-e67bd6bad1b0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>68f89568-81a7-4534-a236-98c142db69ca</onsuccess>
+  </stage>
+  <stage stageid="51c8c496-5d95-49f2-a7e0-a5556ce20b38" name="End" type="End">
+    <subsheetid>48056afb-f839-4dcc-bdb0-e67bd6bad1b0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="68f89568-81a7-4534-a236-98c142db69ca" name="Navigate3" type="Navigate">
+    <subsheetid>48056afb-f839-4dcc-bdb0-e67bd6bad1b0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>51c8c496-5d95-49f2-a7e0-a5556ce20b38</onsuccess>
+    <step>
+      <element id="23b8fbed-72d8-4271-8eaa-c15f2447df50" />
+      <action>
+        <id>AAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="475cff52-74c6-4180-a585-510b5c33c141" name="Time Out1" type="WaitEnd">
+    <subsheetid>122cff21-fd59-4e6e-b604-0b6d4b5439f7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>7ed0df32-3c7d-4c52-80fc-58ee6d7d1d07</onsuccess>
+    <groupid>32179a6d-d7d4-4268-a49e-6bc34628460d</groupid>
+  </stage>
+  <stage stageid="c790dc35-22ed-44f2-8176-9a75859abae7" name="Wait1" type="WaitStart">
+    <subsheetid>122cff21-fd59-4e6e-b604-0b6d4b5439f7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-60</displayx>
+    <displayy>-195</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>32179a6d-d7d4-4268-a49e-6bc34628460d</groupid>
+    <choices>
+      <choice reply="True">
+        <name>Active Window Check Exists</name>
+        <distance>45</distance>
+        <ontrue>1c3105f8-aeaf-4fb5-8a7e-148192fae2a3</ontrue>
+        <element id="7453c7e7-8389-4718-a38a-5eccc2becf83" />
+        <condition>
+          <id>CheckExists</id>
+          <arguments>
+            <argument>
+              <id>idname</id>
+              <value>
+              </value>
+            </argument>
+          </arguments>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="1c3105f8-aeaf-4fb5-8a7e-148192fae2a3" name="Anchor1" type="Anchor">
+    <subsheetid>122cff21-fd59-4e6e-b604-0b6d4b5439f7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>-150</displayy>
+    <displaywidth>10</displaywidth>
+    <displayheight>10</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>c052b52f-41a3-44ac-8aa1-ed796a77fd41</onsuccess>
+  </stage>
+  <stage stageid="c052b52f-41a3-44ac-8aa1-ed796a77fd41" name="Anchor2" type="Anchor">
+    <subsheetid>122cff21-fd59-4e6e-b604-0b6d4b5439f7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>15</displayy>
+    <displaywidth>10</displaywidth>
+    <displayheight>10</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>17596788-ce16-4ceb-8703-539c000076b2</onsuccess>
+  </stage>
+</process>
